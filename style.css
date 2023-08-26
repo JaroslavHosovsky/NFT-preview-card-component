@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.card-container {
+  background-color: hsl(216, 50%, 16%);
+  padding: 25px;
+  width: 85%;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+.card-container h1 {
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.card-container h1:active {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.card-container p {
+  color: hsl(215, 51%, 70%);
+}
+.equi-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.equi-img:active {
+  filter: invert(80%);
+}
+.svg-img1 {
+  width: 12px;
+  margin-right: 8px;
+}
+.svg-img2 {
+  width: 20px;
+  margin-right: 8px;
+}
+.etherum-p {
+  color: hsl(178, 100%, 50%) !important;
+}
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.svg-text {
+  display: flex;
+}
+.reference {
+  display: flex;
+}
+.reference img {
+  width: 35px;
+  height: auto;
+  margin-right: 10px;
+}
+.reference p {
+  align-self: center;
+}
+.reference a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  cursor: pointer;
+}
+.reference a:active {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .card-container {
+    max-width: 400px;
+  }
+}
